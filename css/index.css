@@ -1,5 +1,5 @@
 .custom-header
-	{		
+	{
 	}
 	
 	.custom-header .mdl-navigation__link
@@ -13,6 +13,10 @@
 		background-color: #f4f4f4;
 	}
 	
+	#hero-images
+	{
+		z-index: 900;
+	}
 	
 	.custom-card.mdl-card
 	{
@@ -35,35 +39,35 @@
 	/* Individual logos for each event */
 	#cs-title
 	{
-		background: url('card-website-cs.png') center no-repeat;		
+		background: url('../images/card-website-cs.png') center no-repeat;		
 		background-size: 38% auto;
 	}
 	#fifa-title
 	{
-		background: url('card-website-fifa.png') center no-repeat;		
+		background: url('../images/card-website-fifa.png') center no-repeat;		
 		background-size: 38% auto;
 	}
 	#th-title
 	{
-		background: url('card-website-th.png') center no-repeat;		
+		background: url('../images/card-website-th.png') center no-repeat;		
 		background-size: 38% auto;
 	}
 	
 	#rr-title
 	{
-		background: url('card-website-rr.png') center no-repeat;		
+		background: url('../images/card-website-rr.png') center no-repeat;		
 		background-size: 38% auto;
 	}
 	
 	#ag-title
 	{
-		background: url('card-website-ag.png') center no-repeat;		
+		background: url('../images/card-website-ag.png') center no-repeat;		
 		background-size: 38% auto;
 	}
 	
 	#sl-title
 	{
-		background: url('card-website-sl.png') center no-repeat;		
+		background: url('../images/card-website-sl.png') center no-repeat;		
 		background-size: 38% auto;
 	}
 	
@@ -79,40 +83,8 @@
 		color: #444;
 		padding: 0 10px;
 	}
-	/* For event page */
-	.custom-event-div h1
-	{
-		text-align: center;
-	}
 	
-	/* For event page */
-	.mdl-card
-	{
-		width: auto; 
-		max-width: 86%; 
-		margin: 10px auto;
-		padding: 0;
-	}
-	
-	/* Event page registration button */
-	#register-button
-	{
-		position: fixed;
-		display: block;
-		right: 0;
-		bottom: 0;
-		margin-right: 40px;
-		margin-bottom: 40px;
-		z-index: 900;
-	}
-
-	/* Recommend you do this for the main page as well */
 	.link-button
 	{
 		color: #fff;
-	}
-	
-	.mdl-layout__drawer
-	{
-		background-color: #fff;
 	}

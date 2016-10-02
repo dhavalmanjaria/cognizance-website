@@ -1,0 +1,48 @@
+
+.custom-event-div 
+	{
+		/* from bettermotherfuckingwebsite.com. Seven lines of CSS to make things look decent */
+		margin: 40px auto;
+		max-width: 900px;
+		width: auto;
+		line-height: 1.6;
+		font-size: 22px;
+		color: #444;
+		padding: 0 10px;
+	}
+
+	.custom-event-div h1
+	{
+		text-align: center;
+	}
+	
+	/* For event page */
+	.mdl-card
+	{
+		width: auto; 
+		max-width: 86%; 
+		margin: 10px auto;
+	}
+	
+	/* Event page registration button */
+	#register-button
+	{
+		position: fixed;
+		display: block;
+		right: 0;
+		bottom: 0;
+		margin-right: 40px;
+		margin-bottom: 40px;
+		z-index: 900;
+	}
+
+	/* Recommend you do this for the main page as well */
+	.link-button
+	{
+		color: #fff;
+	}
+	
+	.mdl-layout__drawer
+	{
+		background-color: #fff;
+	}
