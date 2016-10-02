@@ -46,3 +46,44 @@
 	{
 		background-color: #fff;
 	}
+	
+	/* Individual logos for each event */
+	.custom-title
+	{
+		height: 400px;
+		width: auto;
+	}
+	
+	#cs-event-title
+	{
+		background: url('../images/card-website-cs.png') center no-repeat;	
+		background-size: 38% auto;
+	}
+	#fifa-event-title
+	{
+		background: url('../images/card-website-th.png') center no-repeat;	
+		background-size: 38% auto;		
+	}
+	#th-event-title
+	{
+		background: url('../images/card-website-th.png') center no-repeat;	
+		background-size: 38% auto;
+	}
+	
+	#rr-event-title
+	{
+		background: url('../images/card-website-rr.png') center no-repeat;		
+		background-size: 38% auto;
+	}
+	
+	#ag-event-title
+	{
+		background: url('../images/card-website-ag.png') center no-repeat;		
+		background-size: 38% auto;
+	}
+	
+	#sl-event-title
+	{
+		background: url('../images/card-website-sl.png') center no-repeat;		
+		background-size: 38% auto;
+	}

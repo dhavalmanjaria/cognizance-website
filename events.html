@@ -22,8 +22,7 @@
     <link rel="stylesheet" href="https://code.getmdl.io/1.2.1/material.blue-indigo.min.css">
     <script defer src="https://code.getmdl.io/1.2.1/material.min.js"></script>
     
-	<link rel="stylesheet" href="css/events.css">
-	
+	<link rel="stylesheet" href="css/events.css" />
 	
 	</head>
 
@@ -34,9 +33,20 @@
 				<div class="mdl-layout__header-row">
 					<!-- Title -->
 					<span class="mdl-layout-title">Events at Cognizance</span>
+					<div class="mdl-layout-spacer"></div>
+					
+					<!-- Main nav -->
+					
+					<nav class="mdl-navigation">
+						<a class="link-button mdl-button mdl-js-button mdl-js-ripple-effect " href="index.html">Home</a>
+						<a class="link-button mdl-button mdl-js-button mdl-js-ripple-effect " href="events.html">Events</a>
+						<a class="link-button mdl-button mdl-js-button mdl-js-ripple-effect " href="contact.html">Contact</a>
+					</nav>
 				</div>
 				<div class="mdl-layout__header-row">
-					<div class="mdl-layout-spacer"></div>
+				
+					<!-- Events Nav -->
+					
 					<nav class="mdl-navigation">
 						<a class="link-button mdl-button mdl-js-button mdl-js-ripple-effect " href="#tab1">Gooseman-Cliffe</a>
 						<a class="link-button mdl-button mdl-js-button mdl-js-ripple-effect " href="#tab2">Tech Hunt</a>
@@ -48,21 +58,35 @@
 			
 			<div class="mdl-layout__drawer">
 				<span class="mdl-layout-title">Events</span>
+				
+				<!-- Events nav -->
 				<nav class="mdl-navigation">
-						<a class="mdl-navigation__link"  href="#tab1">Gooseman-Cliffe</a>
-						<a class="mdl-navigation__link"  href="#tab2">Tech Hunt</a>
-						<a class="mdl-navigation__link" href="#tab1">FIFA Tournament</a>
-						<a class="mdl-navigation__link" href="#tab1">Arcade Gaming</a>
-					</nav>
+					<a class="mdl-navigation__link"  href="#tab1">Gooseman-Cliffe</a>
+					<a class="mdl-navigation__link"  href="#tab2">Tech Hunt</a>
+					<a class="mdl-navigation__link" href="#tab1">FIFA Tournament</a>
+					<a class="mdl-navigation__link" href="#tab1">Arcade Gaming</a>
+				</nav>
+				
+				<!------------------------- Spacer ----------------------------------->
+				<div class="mdl-layout-spacer"></div>
+				
+				<!-- Main nav -->
+				<nav class="mdl-navigation">
+					<a class="mdl-navigation__link" href="index.html">Home</a>
+					<a class="mdl-navigation__link" href="events.html">Events</a>
+					<a class="mdl-navigation__link" href="contact.html">Contact</a>
+				</nav>
 			</div> 
 			
 			<!-- <img src="hero2.png" width=100% style=""/> -->
 			<main class="mdl-layout__content custom-content">
 			
+				<!-- CS Section -->
 				<section class="custom-section" id="tab1">
 					<div class="mdl-card mdl-shadow--3dp" >
 						<div class="custom-event-div">
-							
+							<div id="cs-event-title" class="custom-title mdl-card__title">
+							</div>
 							<h1 style="text-align: center">Gooseman-Cliffe</h1>
 							<div>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus.
 							<h2>Venue<h2>
@@ -77,9 +101,13 @@
 					</a>					
 				</section>
 				
+				
+				<!-- Tech Hunt Section -->
 				<section class="custom-section" id="tab2">
 					<div class="mdl-card mdl-shadow--3dp" >
 						<div class="custom-event-div">
+							<div id="th-event-title" class="custom-title mdl-card__title">
+							</div>
 							<h1>Tech Hunt</h1>
 							<div> A mobile focused responsive template that showcases image or text based blog entries, a subscription CTA, search & share links, and an expanded article page with comments, counters and bookmarking capabilities built-in.  A Material Design Lite version of the current android.com site, using the same content with a horizontal navigation, feature carousel and long form scrolling sub pages. 
 							<h2>Venue<h2>
@@ -94,7 +122,9 @@
 						Register NOW!
 					</a>
 				</section>
-			</a>
+				
+				
+			<!-- Tech Hunt Section -->
 			</main>
 			
 			
