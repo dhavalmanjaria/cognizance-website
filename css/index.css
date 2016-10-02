@@ -37,6 +37,7 @@
         }
 		
 	/* Individual logos for each event */
+	/* These values are specific to the cards in the Main page */
 	#cs-title
 	{
 		background: url('../images/card-website-cs.png') center no-repeat;		
