@@ -1,0 +1,7 @@
+Add cards to grid.
+
+Add about, contact and cards pages.
+
+Consider adding "2016" to hero image.
+
+Make the buttons take up the entirety of the bottom row in the cards , but only on mobile
