@@ -1,1 +1,118 @@
-sd
+.custom-header
+	{		
+	}
+	
+	.custom-header .mdl-navigation__link
+	{
+		/*color: #563dfe;  This is a trial about making the header white */
+	}
+	
+	/* Common to all */
+	body 
+	{
+		background-color: #f4f4f4;
+	}
+	
+	
+	.custom-card.mdl-card
+	{
+            width: auto;
+			margin: 2.5%; /* Make sure there is adequate space between the cards */
+			/* This doesn't work on the events page */
+    }
+
+    .custom-card > .mdl-card__title 
+    {
+            color: #000;
+			height: 300px;
+			
+			/* This is a bit of a trick. The background-color (of the card) here is set to white and the logo inside has a transparent background
+			This keeps the logo stuff separate from the background. 
+			Therefore, by setting background size here refers to the logo and these values keep it a perfect square (or circle) despite the screen size
+			*/
+        }
+		
+	/* Individual logos for each event */
+	#cs-title
+	{
+		background: url('card-website-cs.png') center no-repeat;		
+		background-size: 38% auto;
+	}
+	#fifa-title
+	{
+		background: url('card-website-fifa.png') center no-repeat;		
+		background-size: 38% auto;
+	}
+	#th-title
+	{
+		background: url('card-website-th.png') center no-repeat;		
+		background-size: 38% auto;
+	}
+	
+	#rr-title
+	{
+		background: url('card-website-rr.png') center no-repeat;		
+		background-size: 38% auto;
+	}
+	
+	#ag-title
+	{
+		background: url('card-website-ag.png') center no-repeat;		
+		background-size: 38% auto;
+	}
+	
+	#sl-title
+	{
+		background: url('card-website-sl.png') center no-repeat;		
+		background-size: 38% auto;
+	}
+	
+	/* For event page */
+	.custom-event-div 
+	{
+		/* from bettermotherfuckingwebsite.com. Seven lines of CSS to make things look decent */
+		margin: 40px auto;
+		max-width: 900px;
+		width: auto;
+		line-height: 1.6;
+		font-size: 22px;
+		color: #444;
+		padding: 0 10px;
+	}
+	/* For event page */
+	.custom-event-div h1
+	{
+		text-align: center;
+	}
+	
+	/* For event page */
+	.mdl-card
+	{
+		width: auto; 
+		max-width: 86%; 
+		margin: 10px auto;
+		padding: 0;
+	}
+	
+	/* Event page registration button */
+	#register-button
+	{
+		position: fixed;
+		display: block;
+		right: 0;
+		bottom: 0;
+		margin-right: 40px;
+		margin-bottom: 40px;
+		z-index: 900;
+	}
+
+	/* Recommend you do this for the main page as well */
+	.link-button
+	{
+		color: #fff;
+	}
+	
+	.mdl-layout__drawer
+	{
+		background-color: #fff;
+	}

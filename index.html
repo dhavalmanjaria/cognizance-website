@@ -17,7 +17,7 @@
 		<script defer src="mdl/material.min.js"></script>
 
 		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-		<link rel="stylesheet" href="https://code.getmdl.io/1.2.1/material.blue-indigo.min.css">
+		<link rel="stylesheet" href="https://code.getmdl.io/1.2.1/material.indigo-blue.min.css">
 		<script defer src="https://code.getmdl.io/1.2.1/material.min.js"></script>
 		
 		<!-- Custom CSS goes here -->
@@ -29,38 +29,31 @@
 	
 	<body>
 		<div class="mdl-layout mdl-js-layout">
-			<header class="mdl-layout__header mdl-layout__header--scroll">
-				<div class="mdl-layout__header-row mdl-layout--large-screen-only">
-					<!-- Header Title -->
-					<span class="mdl-layout__title">Institute of Business Studies and Research</span>
-					
-					<!-- spacer -->
+			<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+			<header class="mdl-layout__header custom-header">
+				<!-- Top Row, always visible -->
+				<div class="mdl-layout__header-row">
+					<!-- Title -->
+					<span class="mdl-layout-title">Institute of Business Studies and Research</span>
 					<div class="mdl-layout-spacer"></div>
-					
-					<!-- Navigation for Desktop and large screens -->
 					<nav class="mdl-navigation">
-						<a class="mdl-navigation__link">HOME</a>
-						<a class="mdl-navigation__link">ABOUT</a>
-						<a class="mdl-navigation__link">CONTACT</a>
+						<a class="link-button mdl-button mdl-js-button mdl-js-ripple-effect " href="index.html">Home</a>
+						<a class="link-button mdl-button mdl-js-button mdl-js-ripple-effect " href="events.html">Events</a>
+						<a class="link-button mdl-button mdl-js-button mdl-js-ripple-effect " href="#tab1">Contact</a>
+						
 					</nav>
 				</div>
 			</header>
 			
-			<!-- Drawer / Hamburger Menu -->
 			<div class="mdl-layout__drawer">
-				<!-- Header Title -->
-				<span class="mdl-layout__title">Institute of Business Studies and Research</span>
-					
-				<!-- spacer -->
-				<div class="mdl-layout-spacer"></div>
-					
-				<!-- Navigation for Desktop and large screens -->
+				<span class="mdl-layout-title">IBSAR</span>
 				<nav class="mdl-navigation">
-					<a class="mdl-navigation__link" href="index.html">HOME</a>
-					<a class="mdl-navigation__link" href="about.html">ABOUT</a>
-					<a class="mdl-navigation__link" href="contact.html">CONTACT</a>
-				</nav>
-			</div>
+						<a class="mdl-navigation__link"  href="#tab1">Home</a>
+						<a class="mdl-navigation__link"  href="#tab2">Events</a>
+						<a class="mdl-navigation__link" href="#tab1">Contact</a>
+					</nav>
+			</div> 
+			
 			
 			<main class="mdl-layout__content">
 				<!-- Hero Image, shown on all screens -->

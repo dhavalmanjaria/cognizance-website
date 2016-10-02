@@ -5,3 +5,21 @@ Add about, contact and cards pages.
 Consider adding "2016" to hero image.
 
 Make the buttons take up the entirety of the bottom row in the cards , but only on mobile
+
+Practice and add footers. 
+
+The Event page, should be tabbed for each event.
+	
+Include an FAQ and Technology section in the footer.
+
+Make the footer smaller.
+
+media queries.
+
+Problem: 
+	
+	The Moto G3 has a fairly good resolution, however, the screen itself is smaller. So what happens is on a phone such as this, the text rendered is pretty small.
+	
+Solution:
+
+	You will need to add media queries, i.e. custom CSS to make the text bigger for these screens.
