@@ -1,4 +1,8 @@
 
+/* Code for when the browser window is larger */
+@media only screen and (min-width: 960px)
+{
+		
 	
 	#hero-images
 	{
@@ -59,5 +63,3 @@
 		background: url('../images/card-website-sl.png') center no-repeat;		
 		background-size: 38% auto;
 	}
-	
-	
