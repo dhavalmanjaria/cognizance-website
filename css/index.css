@@ -1,17 +1,4 @@
-.custom-header
-	{
-	}
-	
-	.custom-header .mdl-navigation__link
-	{
-		/*color: #563dfe;  This is a trial about making the header white */
-	}
-	
-	/* Common to all */
-	body 
-	{
-		background-color: #f4f4f4;
-	}
+
 	
 	#hero-images
 	{
@@ -23,18 +10,19 @@
             width: auto;
 			margin: 2.5%; /* Make sure there is adequate space between the cards */
 			/* This doesn't work on the events page */
+			min-height: 460px;
     }
 
     .custom-card > .mdl-card__title 
     {
-            color: #000;
-			height: 300px;
+        color: #000;
+		height: 300px;
 			
-			/* This is a bit of a trick. The background-color (of the card) here is set to white and the logo inside has a transparent background
-			This keeps the logo stuff separate from the background. 
-			Therefore, by setting background size here refers to the logo and these values keep it a perfect square (or circle) despite the screen size
-			*/
-        }
+		/* This is a bit of a trick. The background-color (of the card) here is set to white and the logo inside has a transparent background
+		This keeps the logo stuff separate from the background. 
+		Therefore, by setting background size here refers to the logo and these values keep it a perfect square (or circle) despite the screen size
+		*/
+    }
 		
 	/* Individual logos for each event */
 	/* These values are specific to the cards in the Main page */
@@ -72,20 +60,4 @@
 		background-size: 38% auto;
 	}
 	
-	/* For event page */
-	.custom-event-div 
-	{
-		/* from bettermotherfuckingwebsite.com. Seven lines of CSS to make things look decent */
-		margin: 40px auto;
-		max-width: 900px;
-		width: auto;
-		line-height: 1.6;
-		font-size: 22px;
-		color: #444;
-		padding: 0 10px;
-	}
 	
-	.link-button
-	{
-		color: #fff;
-	}

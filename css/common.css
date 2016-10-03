@@ -1,0 +1,27 @@
+/* Common to all */
+body 
+{
+	background-color: #f4f4f4;
+}
+
+footer
+{
+	height: 10px;
+}
+
+footer a
+{
+	text-decoration: none;
+	color: #fff;
+}
+
+footer a:hover
+{
+	text-decoration: underline;
+	color: #fff;
+}
+
+.link-button
+{
+	color: #fff;
+}

@@ -3,14 +3,14 @@
 	<head>
 		<meta charset="utf-8">
 
-		<title>HTML5 Web page</title>
+		<title>Events | Cognizance 2016</title>
 		<meta name="description" content="HTML5 page">
 		<meta name="author" content="dhaval">
 
 		<link rel="stylesheet" href="sytle.css">
 
 
-    <link rel='shortcut icon' href='favicon.ico' type='image/x-icon'/ >
+    <link rel='shortcut icon' href='favicon.ico' type='image/x-icon' />
 		<!--[if lt IE 9]>
 		                <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js">
 		                <![endif]-->
@@ -23,7 +23,7 @@
     <script defer src="https://code.getmdl.io/1.2.1/material.min.js"></script>
     
 	<link rel="stylesheet" href="css/events.css" />
-	
+	<link rel="stylesheet" href="css/common.css" />
 	
 		<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 		<script src="js/javascript.js"></script>
@@ -31,8 +31,8 @@
 	</head>
 
 	<body>
-		<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
-			<header class="mdl-layout__header custom-header">
+		<div class="mdl-layout mdl-js-layout ">
+			<header class="mdl-layout__header custom-header mdl-layout--fixed-header">
 				<!-- Top Row, always visible -->
 				<div class="mdl-layout__header-row">
 					<!-- Title -->
@@ -55,8 +55,12 @@
 						<a class="link-button mdl-button mdl-js-button mdl-js-ripple-effect " href="#cs-section">Gooseman-Cliffe</a>
 						
 						<a class="link-button mdl-button mdl-js-button mdl-js-ripple-effect " href="#fifa-section">FIFA Tournament</a>
-						<a class="link-button mdl-button mdl-js-button mdl-js-ripple-effect " href="#tab2">Tech Hunt</a>
-						<a class="link-button mdl-button mdl-js-button mdl-js-ripple-effect " href="#tab1">Arcade Gaming</a>
+						<a class="link-button mdl-button mdl-js-button mdl-js-ripple-effect " href="#th-section">Tech Hunt</a>
+						<a class="link-button mdl-button mdl-js-button mdl-js-ripple-effect " href="#ag-section">Arcade Gaming</a>
+						
+						<a class="link-button mdl-button mdl-js-button mdl-js-ripple-effect " href="#sl-section">Snakes and Ladders</a>
+						
+						<a class="link-button mdl-button mdl-js-button mdl-js-ripple-effect " href="#rr-section">Robot Rock</a>
 					</nav>
 				</div>
 			</header>
@@ -66,13 +70,15 @@
 				
 				<!-- Events nav -->
 				<nav class="mdl-navigation">
-					<a class="mdl-navigation__link"  href="#tab1">Gooseman-Cliffe</a>					
-					<a class="mdl-navigation__link" href="#tab1">FIFA Tournament</a>
-					<a class="mdl-navigation__link"  href="#tab2">Tech Hunt</a>
-					<a class="mdl-navigation__link" href="#tab1">Arcade Gaming</a>
+					<a class="mdl-navigation__link"  href="#cs-section">Gooseman-Cliffe</a>					
+					<a class="mdl-navigation__link" href="#fifa-section">FIFA Tournament</a>
+					<a class="mdl-navigation__link"  href="#th-section">Tech Hunt</a>
+					<a class="mdl-navigation__link" href="#ag-section">Arcade Gaming</a>					
+					<a class="mdl-navigation__link" href="#sl-section">Snakes and Ladders</a>					
+					<a class="mdl-navigation__link" href="#rr-section">Robot Rock</a>
 				</nav>
 				
-				<!------------------------- Spacer ----------------------------------->
+				<!--Spacer -->
 				<div class="mdl-layout-spacer"></div>
 				
 				<!-- Main nav -->
@@ -94,21 +100,19 @@
 							</div>
 							<h1 id="cs-title-text" style="text-align: center">Gooseman-Cliffe</h1>
 							
-							<div id="cs-content-text">
-								<h2>Venue<h2>
+							A long standing tradition of tech fests everywhere. This event always draws a crowd. from the biggest Universities to the smallest colleges, gamers from all over are drawn to this event to show off their skills. 
+								<h2>Venue</h2>
 								<h4>IBSAR Navi Mumbai</h4>
-								<h2>Timings<h2>
+								<h2>Timings</h2>
 								<h4>9 am to 5 pm</h4>
+							<div class="mdl-card__actions mdl-card--border">
+								<a href="#" class="register-button mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--raised mdl-button--colored">
+									Register NOW!
+								</a>
 							</div>
-							<div class="mdl-card__actions--border"></div>
-							<a href="#" class="register-button mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--raised mdl-button--colored">
-								Register NOW!
-							</a>		
 						</div>
-					</div>
-								
+					</div>								
 				</section>
-				
 				
 				<!-- FIFA Section -->
 				<section class="custom-section" id="fifa-section">
@@ -116,39 +120,132 @@
 						<div class="custom-event-div">
 							<div id="fifa-event-title" class="custom-title mdl-card__title">
 							</div>
-							<h1>FIFA Tournament</h1>
-							<div> This is a celebration of the greatest sport on earth. Professionals and newbies alike come together to test their skills and have some fun at this one on one tournament against players from all over.</div>
-							<h2>Venue<h2>
-							<h4>IBSAR Navi Mumbai</h4>
-							<h2>Timings<h2>
-							<h4>9 am to 5 pm</h4>
+							<h1 style="text-align: center">FIFA Tournament</h1>
+							
+							<div>
+								This is a celebration of the greatest sport on earth. Professionals and newbies alike come together to test their skills and have some fun at this one on one tournament against players from all over.
+							
+								<h2>Venue</h2>
+								<h4>IBSAR Navi Mumbai</h4>
+								<h2>Timings</h2>
+								<h4>9 am to 5 pm</h4>
+							</div>
+							<div class="mdl-card__actions mdl-card--border">
+								<a href="#" class="register-button mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--raised mdl-button--colored">
+									Register NOW!
+								</a>
 							</div>
 						</div>
-					</div>
-
-					<a href="google.com" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--raised mdl-button--colored" id="register-button">
-						Register NOW!
-					</a>
+					</div>								
+				</section>
+			
+				<!-- Tech Hunt Section -->
+				<section class="custom-section" id="th-section">
+					<div class="mdl-card mdl-shadow--3dp" >
+						<div class="custom-event-div">
+							<div id="th-event-title" class="custom-title mdl-card__title">
+							</div>
+							<h1 style="text-align: center">Tech Hunt</h1>
+							
+							<div id="cs-content-text">
+								Teams compete in this technological treasure hunt and use their brains over their brawn to figure out the clues and race to victory in this exciting battle of wits and minds.
+							
+								<h2>Venue</h2>
+								<h4>IBSAR Navi Mumbai</h4>
+								<h2>Timings</h2>
+								<h4>9 am to 5 pm</h4>
+							</div>
+							<div class="mdl-card__actions mdl-card--border">
+								<a href="#" class="register-button mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--raised mdl-button--colored">
+									Register NOW!
+								</a>
+							</div>
+						</div>
+					</div>								
 				</section>
 				
+				<!-- Arcade Gaming Section -->
+				<section class="custom-section" id="ag-section">
+					<div class="mdl-card mdl-shadow--3dp" >
+						<div class="custom-event-div">
+							<div id="ag-event-title" class="custom-title mdl-card__title">
+							</div>
+							<h1 style="text-align: center">Arcade Gaming</h1>
+							
+							<div id="cs-content-text">
+								Take a walk down memory lane with the greatest games from yesteryear. Go back to a time when gaming was a social event on Arcade machines surrounded by cheering friends as you race to the high score.
+							
+								<h2>Venue</h2>
+								<h4>IBSAR Navi Mumbai</h4>
+								<h2>Timings</h2>
+								<h4>9 am to 5 pm</h4>
+							</div>
+							<div class="mdl-card__actions mdl-card--border">
+								<a href="#" class="register-button mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--raised mdl-button--colored">
+									Register NOW!
+								</a>
+							</div>
+						</div>
+					</div>								
+				</section>
 				
-			<!-- Tech Hunt Section -->
+				<!-- Snakes and Ladders Section -->
+				<section class="custom-section" id="sl-section">
+					<div class="mdl-card mdl-shadow--3dp" >
+						<div class="custom-event-div">
+							<div id="sl-event-title" class="custom-title mdl-card__title">
+							</div>
+							<h1 style="text-align: center">Snakes and Ladders</h1>
+							
+							<div id="cs-content-text">
+								Test your luck in this classic game of chance. Climb the ladder of success or slide down the serpent of defeat and see if lady luck is at your side. Explode in joy at one of the most fun games ever created.
+							
+								<h2>Venue</h2>
+								<h4>IBSAR Navi Mumbai</h4>
+								<h2>Timings</h2>
+								<h4>9 am to 5 pm</h4>
+							</div>
+							<div class="mdl-card__actions mdl-card--border">
+								<a href="#" class="register-button mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--raised mdl-button--colored">
+									Register NOW!
+								</a>
+							</div>
+						</div>
+					</div>								
+				</section>
+				
+				<section class="custom-section" id="rr-section">
+					<div class="mdl-card mdl-shadow--3dp" >
+						<div class="custom-event-div">
+							<div id="rr-event-title" class="custom-title mdl-card__title">
+							</div>
+							<h1 style="text-align: center">Robot Rock</h1>
+							
+							<div id="cs-content-text">
+								Though not strictly a technical college, we still have our hardware geniuses wiring together an actual robot game programmed by our students and that takes commands using the audio 
+								signals. This is going to be extreme.
+							
+								<h2>Venue</h2>
+								<h4>IBSAR Navi Mumbai</h4>
+								<h2>Timings</h2>
+								<h4>9 am to 5 pm</h4>
+							</div>
+							<div class="mdl-card__actions mdl-card--border">
+								<a href="#" class="register-button mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--raised mdl-button--colored">
+									Register NOW!
+								</a>
+							</div>
+						</div>
+					</div>								
+				</section>
 			</main>
 			
-			
-		
-			
 			<!-- This is a mini footer that just contains a small section -->
-			<footer class="mdl-mini-footer">
-				<div class="mdl-mini-footer__center-section">
-					<div class="mdl-logo">Cognizance</div>
-					<ul class="mdl-mini-footer__link-list"</a></li>
-						<li><a href="#">FAQ</a></li>
-						<li><a href="#">Contact</a></li>
-						<li><a href="#">Other</a></li>
-					</ul>
-				</div>
-			</footer>
+		
+		<footer class="mdl-mini-footer">
+			<!-- generated with JQuery -->
+		</footer>
+		
 		</div>
 	</body>
 </html>

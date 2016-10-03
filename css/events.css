@@ -27,7 +27,11 @@
 	/* Event page registration button */
 	.register-button
 	{
-		width: 100%;
+		width:62%;
+		display: block;
+		margin-right: auto;
+		margin-left: auto;
+
 	}
 	/* Recommend you do this for the main page as well */
 	.link-button

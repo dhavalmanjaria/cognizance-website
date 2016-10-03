@@ -23,6 +23,8 @@
 		<!-- Custom CSS goes here -->
 		<link rel="stylesheet" href="css/index.css" />
 		
+		<link rel="stylesheet" href="css/common.css" />
+		
 		<!-- Custom JS goes here, along with JQuery stuff -->
 		<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 		<script src="js/javascript.js"></script>
@@ -39,7 +41,7 @@
 					<nav class="mdl-navigation">
 						<a class="link-button mdl-button mdl-js-button mdl-js-ripple-effect " href="index.html">Home</a>
 						<a class="link-button mdl-button mdl-js-button mdl-js-ripple-effect " href="events.html">Events</a>
-						<a class="link-button mdl-button mdl-js-button mdl-js-ripple-effect " href="#tab1">Contact</a>
+						<a class="link-button mdl-button mdl-js-button mdl-js-ripple-effect " href="contact.html">Contact</a>
 						
 					</nav>
 				</div>
@@ -50,7 +52,7 @@
 				<nav class="mdl-navigation">
 						<a class="mdl-navigation__link"  href="index.html">Home</a>
 						<a class="mdl-navigation__link"  href="events.html">Events</a>
-						<a class="mdl-navigation__link" href="#tab1">Contact</a>
+						<a class="mdl-navigation__link" href="contact.html">Contact</a>
 					</nav>
 			</div> 
 			
@@ -64,26 +66,27 @@
 				<div class="mdl-grid">
 				
 				<!-- CS card -->
-					<div class="mdl-cell mdl-cell--4-col">					
+					<div class="mdl-cell mdl-cell--4-col mdl-cel--4-col-tablet">					
 						<div class="custom-card mdl-card mdl-shadow--2dp">
 							<div id="cs-title" class="mdl-card__title">
-								<div id="cs-title-text" class="mdl-card__title-text">
+								<div class="mdl-card__title-text">
+									Gooseman-Cliffe
 								</div>
 							</div>
-							<div id="cs-content-text" class="custom-card mdl-card__supporting-text">
-							
+							<div class="custom-card mdl-card__supporting-text">
+								A long standing tradition of tech fests everywhere. This event always draws a crowd. from the biggest Universities to the smallest colleges, gamers from all over are drawn to this event to show off their skills. 
 							</div>
 							<div class="mdl-card__actions mdl-card--border">
-								<button class="mdl-button mdl-js-button mdl-button--accent mdl-button--raised mdl-js-ripple-effect">
+								<a href="events.html#cs-section" class="mdl-button mdl-js-button mdl-button--accent mdl-button--raised mdl-js-ripple-effect">
 								View More
-								</button>
+								</a>
 							</div>
 						</div>
 					</div>
 			
 			
 					<!-- FIFA Tournament card -->
-					<div class="mdl-cell mdl-cell--4-col">
+					<div class="mdl-cell mdl-cell--4-col mdl-cel--4-col-tablet">
 						<div class="custom-card mdl-card mdl-shadow--2dp">
 							<div id="fifa-title" class="mdl-card__title">
 								<div class="mdl-card__title-text">
@@ -94,92 +97,100 @@
 								This is a celebration of the greatest sport on earth. Professionals and newbies alike come together to test their skills and have some fun at this one on one tournament against players from all over.
 							</div>
 							<div class="mdl-card__actions mdl-card--border">
-								<button class="mdl-button mdl-js-button mdl-button--accent mdl-button--raised mdl-js-ripple-effect">
+								<a href="events.html#fifa-section" class="mdl-button mdl-js-button mdl-button--accent mdl-button--raised mdl-js-ripple-effect">
 									View More
-								</button>
+								</a>
 							</div>
 						</div>
 					</div>
+					
+					<!-- Tech Hunt card -->
 			
-					<div class="mdl-cell mdl-cell--4-col">
+					<div class="mdl-cell mdl-cell--4-col mdl-cel--4-col-tablet">
 						<div class="custom-card mdl-card mdl-shadow--2dp">
 							<div id="th-title" class="mdl-card__title">
 								<div class="mdl-card__title-text">
-									Gooseman-Cliffe
+									Tech Hunt
 								</div>
 							</div>
 							<div class="custom-card mdl-card__supporting-text">
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-								Mauris sagittis pellentesque lacus eleifend lacinia...
+								Teams compete in this technological treasure hunt and use their brains over their brawn to figure out the clues and race to victory in this exciting battle of wits and minds. 
 							</div>
 							<div class="mdl-card__actions mdl-card--border">
-								<button class="mdl-button mdl-js-button mdl-button--accent mdl-button--raised mdl-js-ripple-effect">
+								<a href="events.html#th-section" class="mdl-button mdl-js-button mdl-button--accent mdl-button--raised mdl-js-ripple-effect">
 									View More
-								</button>
+								</a>
 							</div>
 						</div>
 					</div>
 			
-					<div class="mdl-cell mdl-cell--4-col">
+					<!-- Arcade Gaming -->
+					<div class="mdl-cell mdl-cell--4-col mdl-cel--4-col-tablet">
 						<div class="custom-card mdl-card mdl-shadow--2dp">
 							<div id="ag-title"  class="mdl-card__title">
 								<div  class="mdl-card__title-text">
-									Gooseman-Cliffe
+									Arcade Gaming
 								</div>
 							</div>
 							<div class="custom-card mdl-card__supporting-text">
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-								Mauris sagittis pellentesque lacus eleifend lacinia...
+								Take a walk down memory lane with the greatest games from yesteryear. Go back to a time when gaming was a social event on Arcade machines surrounded by cheering friends as you race to the high score.
 							</div>
 							<div class="mdl-card__actions mdl-card--border">
-								<button class="mdl-button mdl-js-button mdl-button--accent mdl-button--raised mdl-js-ripple-effect">
+								<a href="events.html#ag-section" class="mdl-button mdl-js-button mdl-button--accent mdl-button--raised mdl-js-ripple-effect">
 									View More
-								</button>
+								</a>
 							</div>
 						</div>
 					</div>
-			
-					<div class="mdl-cell mdl-cell--4-col">
+					
+					<!-- Snakes and Ladders -->
+					<div class="mdl-cell mdl-cell--4-col mdl-cel--4-col-tablet">
 						<div class="custom-card mdl-card mdl-shadow--2dp">
 							<div id="sl-title" class="mdl-card__title">
 								<div class="mdl-card__title-text">
-									Gooseman-Cliffe
+									Snakes and Ladders
 								</div>
 							</div>
 							<div class="custom-card mdl-card__supporting-text">
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-								Mauris sagittis pellentesque lacus eleifend lacinia...
+								Test your luck in this classic game of chance. Climb the ladder of success or slide down the serpent of defeat and see if lady luck is at your side. Explode in joy at one of the most fun games ever created.
 							</div>
 							<div class="mdl-card__actions mdl-card--border">
-								<button class="mdl-button mdl-js-button mdl-button--accent mdl-button--raised mdl-js-ripple-effect">
+								<a href="events.html#sl-section" class="mdl-button mdl-js-button mdl-button--accent mdl-button--raised mdl-js-ripple-effect">
 									View More
-								</button>
+								</a>
 							</div>
 						</div>
 					</div>
 			
-					<div class="mdl-cell mdl-cell--4-col">
+					<!-- Robot Rock -->
+					<div class="mdl-cell mdl-cell--4-col mdl-cel--4-col-tablet">
 						<div class="custom-card mdl-card mdl-shadow--2dp">
-							<div id="ag-title" class="mdl-card__title">
+							<div id="rr-title" class="mdl-card__title">
 								<div class="mdl-card__title-text">
-									Gooseman-Cliffe
+									Robot Rock
 								</div>
 							</div>
 							<div class="custom-card mdl-card__supporting-text">
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-								Mauris sagittis pellentesque lacus eleifend lacinia...
+								Though not strictly a technical college, we still have our hardware geniuses wiring together an actual robot game programmed by our students and that takes commands using the audio 
+								signals. This is going to be extreme.
 							</div>
 							<div class="mdl-card__actions mdl-card--border">
-								<button class="mdl-button mdl-js-button mdl-button--accent mdl-button--raised mdl-js-ripple-effect">
+								<a href="events.html#rr-section" class="mdl-button mdl-js-button mdl-button--accent mdl-button--raised mdl-js-ripple-effect">
 									View More
-								</button>
+								</a>
 							</div>
 						</div>
 					</div>			
 				</div><!-- End Grid -->
 			</main>
+			
+		<footer class="mdl-mini-footer">
+			<!-- generated with JQuery -->
+		</footer>
+			
 		</div> <!-- End layout -->
-	
+		
+		
 	</body>
 </html>
 	

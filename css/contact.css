@@ -1,0 +1,54 @@
+
+.custom-event-div 
+	{
+		/* from bettermotherfuckingwebsite.com. Seven lines of CSS to make things look decent */
+		margin: 40px;
+		max-width: 900px;
+		line-height: 1.6;
+		font-size: 22px;
+		color: #444;
+		padding: 0 10px;
+	}
+
+	.custom-event-div h1
+	{
+	}
+	
+	/* For event page */
+	.mdl-card
+	{
+		width: auto; 
+		max-width: 86%; 
+		margin: 10px auto;
+	}
+	
+	
+	/* Recommend you do this for the main page as well */
+	.link-button
+	{
+		color: #fff;
+	}
+	
+	.mdl-layout__drawer
+	{
+		background-color: #fff;
+	}
+	
+	/* Individual logos for each event */
+	.custom-title
+	{
+		height: 400px;
+		width: auto;
+	}
+	
+	.call-icon
+	{
+		font-size: 40px;
+	}
+	
+	#address-image
+	{
+		background: url("../images/location.png") bottom;
+		height: 400px;
+		width: auto;
+	}
