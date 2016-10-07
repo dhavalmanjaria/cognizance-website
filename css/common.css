@@ -1,12 +1,15 @@
 /* Common to all */
+
+
 body 
 {
 	background-color: #f4f4f4;
 }
-
 footer
 {
-	height: 10px;
+	height: 30px;
+	overflow-y: hidden;
+	/* Issue resolved here where the footer caused the entire page to have two scroll bars */
 }
 
 footer a

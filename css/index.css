@@ -1,65 +1,61 @@
 
 /* Code for when the browser window is larger */
-@media only screen and (min-width: 960px)
-{
-		
-	
-	#hero-images
-	{
-		z-index: 900;
-	}
-	
-	.custom-card.mdl-card
-	{
-            width: auto;
-			margin: 2.5%; /* Make sure there is adequate space between the cards */
-			/* This doesn't work on the events page */
-			min-height: 460px;
-    }
 
-    .custom-card > .mdl-card__title 
-    {
-        color: #000;
-		height: 300px;
-			
-		/* This is a bit of a trick. The background-color (of the card) here is set to white and the logo inside has a transparent background
-		This keeps the logo stuff separate from the background. 
-		Therefore, by setting background size here refers to the logo and these values keep it a perfect square (or circle) despite the screen size
-		*/
-    }
-		
-	/* Individual logos for each event */
-	/* These values are specific to the cards in the Main page */
-	#cs-title
-	{
-		background: url('../images/card-website-cs.png') center no-repeat;		
-		background-size: 38% auto;
-	}
-	#fifa-title
-	{
-		background: url('../images/card-website-fifa.png') center no-repeat;		
-		background-size: 38% auto;
-	}
-	#th-title
-	{
-		background: url('../images/card-website-th.png') center no-repeat;		
-		background-size: 38% auto;
-	}
-	
-	#rr-title
-	{
-		background: url('../images/card-website-rr.png') center no-repeat;		
-		background-size: 38% auto;
-	}
-	
-	#ag-title
-	{
-		background: url('../images/card-website-ag.png') center no-repeat;		
-		background-size: 38% auto;
-	}
-	
-	#sl-title
-	{
-		background: url('../images/card-website-sl.png') center no-repeat;		
-		background-size: 38% auto;
-	}
+#hero-images
+{
+	z-index: 900;
+}
+
+.custom-card.mdl-card
+{
+	width: auto;
+	margin: 2.5%; /* Make sure there is adequate space between the cards */
+	/* This doesn't work on the events page */	
+	max-height: 475px;
+}
+
+.custom-card > .mdl-card__title 
+{
+	color: #000;
+	height: 300px;
+	/* This is a bit of a trick. The background-color (of the card) here is set to white and the logo inside has a transparent background
+	This keeps the logo stuff separate from the background. 
+	Therefore, by setting background size here refers to the logo and these values keep it a perfect square (or circle) despite the screen size
+	*/
+}
+
+/* Individual logos for each event */
+/* These values are specific to the cards in the Main page */
+#cs-title
+{
+	background: url('../images/card-website-cs.png') center no-repeat;		
+	background-size: 38% auto;
+}
+#fifa-title
+{
+	background: url('../images/card-website-fifa.png') center no-repeat;		
+	background-size: 38% auto;
+}
+#th-title
+{
+	background: url('../images/card-website-th.png') center no-repeat;		
+	background-size: 38% auto;
+}
+
+#rr-title
+{
+	background: url('../images/card-website-rr.png') center no-repeat;		
+	background-size: 38% auto;
+}
+
+#ag-title
+{
+	background: url('../images/card-website-ag.png') center no-repeat;		
+	background-size: 38% auto;
+}
+
+#sl-title
+{
+	background: url('../images/card-website-sl.png') center no-repeat;		
+	background-size: 38% auto;
+}
