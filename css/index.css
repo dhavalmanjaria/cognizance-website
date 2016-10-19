@@ -11,7 +11,9 @@
 	width: auto;
 	margin: 2.5%; /* Make sure there is adequate space between the cards */
 	/* This doesn't work on the events page */	
-	max-height: 475px;
+	
+
+	height: 446px;
 }
 
 .custom-card > .mdl-card__title 
@@ -26,6 +28,7 @@
 
 /* Individual logos for each event */
 /* These values are specific to the cards in the Main page */
+
 #cs-title
 {
 	background: url('../images/card-website-cs.png') center no-repeat;		

@@ -1,0 +1,33 @@
+Thank you speech.
+
+This year, Cognizance has been different. I'm sure you've noticed that it was on a much smaller scale and the events we had were a little different from last year. For example, we actually had a game in the Room, rather than just a simple show. Instead of a boring old fortune cookie app, we had a fantastic, exciting Arcade Gaming section. Instead of a massive, chaotic, messy CS tournament for pros, we had a simple, fun, approachable One on One which even Rinkle ma'am and Ruchi ma'am could be a part of.
+
+We, the BCA are about systems -- systems of Software, Systems of Hardware. Our business is the business of developing systems as Solutions to problems that a business might face.
+
+Now notice I say "systems" and "solutions", not merely software. Tech people do not merely write code. We do not nearly tap on a keyboard and make things happen. There is a process to the matter. To put it in other words, last year in SSAD we learned about the Role and Functions of a Systems Analyst. We learned that as software engineers and systems engineers we not only have a perfect development cycle that delivers a product but also we have to deal with the outside world. We have to be psycologists and motivators and teachers. 
+
+This process of "Software Engineering" or "Systems Development" has a certain set of best practices associated with it that every technical person has to follow in order to actually create something, to actually do a project. One does not simply sit on a computer and start typing and create Facebook or Windows or the Linux Kernel. One does not simply walk into Mordor.
+
+This requires a process of planning and development and together these ideas, that have been incorported from Management, and make up the field of Systems Engineering. For the TMV, that field is called Structured Systems Analysis and Design. In a modern, software development context, it is known as Object oriented analysis and design.
+
+The idea is simply this, you employ a process to creating a system. You employ a structure to the process of developing something.
+
+That is what we have tried to do with Cognizance this year. Apply the principles of Systems Engineering and Software Development to the management of an event. We have (or at least tried to) operate within a particular structure, and a particular set of rules and guidelines in the organization of this event. The reason this was done was to simulate real-world systems development as much as we can.
+
+That's important, the simulation of real-world systems development. Take for example the Counter-strike tournament. Now the fact is, when deploying a system or conducting a live test, things can go wrong. Switches might turn out to be fauly, viruses can infect your machines, or there might be other issues. We learned that you have to be ready with a back up plan so that things go forward and you can still deploy a version of the product that people can enjoy. And that's what happened, we had a backup plan which we implemented and CS still happened on time, albeit in a different format. 
+
+We also learned how networking can be. We take the "Wifi" and the "network" for granted but as Yash will attest, networking is not a boring, simple theory subject. There's a lot of technical know-how put in when creating a network that runs, 99.95% of the time.
+
+Take now, the arcade gaming project. I'd like to personally thank Arvind and his group for the incredible nostalgic pleasure I found in playing Contra and Mario and Circus Charlie again. In the development of that project, we learned how budget constraints really come to define the scope and structure of a project. This is something that most start-ups who don't have infinite VC money to create the next super corporation, deal with every day. What you say, and how beautiful it was was merely a small version of what we had originally planned. 
+
+Then there's of course FIFA, where we learned how corporate greed is ruining the gaming industry and the cost that customers pay because of this. Again, what was a beautiful, incredible tournament had a lot of copyrights issues behind it. There is a very good reason we were running specifically FIFA 17 on that specific PC and so on. 
+
+Then there's the entire creative team. The creative projects were created specifically as a "front-end" to Cognizance. They were the "Face" of cognizance. They were to Cognizance as HTML/CSS/JS are to a website. Even the most massive SOA based applications require a good front-end to attract customers and show that they mean business. As software engineeers, we need to realise how important these non-technical aspects are to the process of software development. We need to have a good UI/UX to be successful just as much as we need a good, robust back-end.
+
+We need a marketing team, we need a creative team, we need managers, we need admin staff, and we need the entire gamut of professionals to develop software and deliver a solution to the customer.
+
+This is what we learned in Cognizance. How to create a system. Sure it might have looked like just a college event on the outside, but on the inside was a fairly robust, organizational structure applied. The best example of this is I suppose, how technical projects needed to submit a basic SRS before commencing work.
+
+I believe this is what tech fests are about, to provide real world experience of technical applications and as the technical lead of this fest, I believe we have done that to the best of our abilities.
+
+For this, we would like the thank the coordinator, the HOD, all the various teams involved, and each and every member of the teacing and non-teaching staff for supporting us in this endevour. And we would like to thank all of you, our simulated customers, for your support and participation.
