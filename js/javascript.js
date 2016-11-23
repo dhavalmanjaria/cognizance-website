@@ -8,6 +8,7 @@ $(document).ready(function(){
 	footerHTML += "<li><div class='mdl-logo'>Cognizance</div></li>";
 	footerHTML += "<li><div><a href='http://ibsar.ac.in'>IBSAR Main Page</a></div></li>";
 	footerHTML += "<li><div><a href='contact.html'>Contact</a></div></li>";
+	footerHTML += "<li><div><a href='thank-you.html'>Thank You</a></div></li>";
 	footerHTML += "<li><div>Location: Thapar Complex, Sector 15, CBD Belapur, Navi Mumbai</div></li>";
 	footerHTML += "</ul></div>";
 	

@@ -28,3 +28,8 @@ footer a:hover
 {
 	color: #fff;
 }
+	
+.mdl-layout__drawer
+{
+	background-color: #fff;
+}

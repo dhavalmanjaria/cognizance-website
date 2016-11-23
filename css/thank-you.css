@@ -22,23 +22,9 @@
 		margin: 10px auto;
 	}
 	
-	
-	
 	/* Individual logos for each event */
 	.custom-title
 	{
-		height: 400px;
-		width: auto;
-	}
-	
-	.call-icon
-	{
-		font-size: 40px;
-	}
-	
-	#address-image
-	{
-		background: url("../images/location.png") bottom;
 		height: 400px;
 		width: auto;
 	}
